@@ -25,6 +25,8 @@ import nineteen from './../../assets/Slider7/19.png'
 import twintee from './../../assets/Slider7/20.png'
 import twintiOne from './../../assets/Slider7/21.png'
 import Mentorship from "./Mentorship";
+import Award from "./Award";
+import SocialLinks from "../../Social/SocialLinks";
 
 const Home = () => {
     let texts1 = [
@@ -74,7 +76,7 @@ const Home = () => {
     ];
 
     return (
-        <div className="bg-gray-300 relative">
+        <div className="relative">
             <Banner></Banner>
             <Graduates></Graduates>
             <Main_Title text={'The Edzorb Law Difference'}></Main_Title>
@@ -101,6 +103,10 @@ const Home = () => {
 
             <Mentorship></Mentorship>
             <Main_Title text={"Strike Rate"}></Main_Title>
+
+            <Award></Award>
+
+            <SocialLinks></SocialLinks>
         </div>
     )
 }

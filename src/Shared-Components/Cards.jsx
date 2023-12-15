@@ -11,13 +11,13 @@ import { Pagination, Autoplay } from 'swiper/modules';
 const Cards = ({ texts, title, img1, img2, img3, classT }) => {
 
     return (
-        <div className="w-8/12 mx-auto shadow-xl border-1 my-10 bg-white rounded-[50px] h-[550px] p-12 -mt-12 mb-20">
+        <div className="w-9/12 mx-auto shadow-2xl border-1 my-10 bg-white rounded-[50px] h-[550px] p-12 -mt-12 mb-24 z-30">
             <div className={`flex sm:flex-col ${classT} justify-center gap-16`}>
                 <div className='w-[380px]'>
                     <Swiper autoplay={{ delay: 1500, disableOnInteraction: false, }} pagination={true} modules={[Pagination, Autoplay]} className="mySwiper">
-                        <SwiperSlide className='rounded-3xl'><img className='w-[370px] h-[450px]' src={img1} alt="" /></SwiperSlide>
-                        <SwiperSlide className='rounded-3xl'><img className='w-[370px] h-[450px]' src={img2} alt="" /></SwiperSlide>
-                        <SwiperSlide className='rounded-3xl'><img className='w-[370px] h-[450px]' src={img3} alt="" /></SwiperSlide>
+                        <SwiperSlide className='rounded-3xl'><img className='w-[370px] h-[450px] rounded-3xl' src={img1} alt="" /></SwiperSlide>
+                        <SwiperSlide className='rounded-3xl'><img className='w-[370px] h-[450px] rounded-3xl' src={img2} alt="" /></SwiperSlide>
+                        <SwiperSlide className='rounded-3xl'><img className='w-[370px] h-[450px] rounded-3xl' src={img3} alt="" /></SwiperSlide>
                     </Swiper>
                 </div>
                 <div className=" pt-10">
