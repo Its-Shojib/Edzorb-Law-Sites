@@ -9,7 +9,7 @@ const Navbar = () => {
         <li><Link> <img className="w-8" src="/public/micro.png" alt="" /> Podcast</Link></li>
     </>
     return (
-        <div className="navbar fixed top-0 bg-[#121436] h-20">
+        <div className="navbar fixed top-0 bg-[#121436] z-50 h-20">
             <div className="max-w-screen-2xl  mx-auto gap-40 ">
                 <div className="navbar-start">
                     <div className="dropdown">

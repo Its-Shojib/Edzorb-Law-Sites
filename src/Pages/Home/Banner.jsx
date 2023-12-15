@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import animation from '../../public/Animation - 1702642228895.json'
+import animation from '../../../public/Animation - 1702642228895.json'
 
 const Banner = () => {
     return (
@@ -12,8 +12,8 @@ const Banner = () => {
                     </p>
                     <p className="bg-white shadow-white text-black p-2 rounded-md max-w-sm text-lg font-bold">#1 Most Downloaded Judicial Services App</p>
                     <div className="flex gap-3">
-                        <button>Play Store</button>
-                        <button>App Store</button>
+                        <a href=""><img className="rounded-xl" src="/public/play.jpg" alt="" /></a>
+                        <a href=""><img className="rounded-xl" src="/public/app.jpg" alt="" /></a>
                     </div>
                 </div>
                 <div className="flex-1 min-h-[350px]">
@@ -25,10 +25,10 @@ const Banner = () => {
             <div className="bg-black h-16 ">
                 <p className="text-center text-white pt-4">Why Edzorb Law App is ❤ by Over 10,000+ Users. <div className="rating">
                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400"  />
                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked/>
+                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
                 </div> <span className="underline">Read Reviews</span></p>
             </div>
         </div>
