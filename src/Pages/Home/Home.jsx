@@ -24,6 +24,7 @@ import eightteen from './../../assets/Slider6/18.png'
 import nineteen from './../../assets/Slider7/19.png'
 import twintee from './../../assets/Slider7/20.png'
 import twintiOne from './../../assets/Slider7/21.png'
+import Mentorship from "./Mentorship";
 
 const Home = () => {
     let texts1 = [
@@ -97,6 +98,9 @@ const Home = () => {
             {/* Card-7 */}
             <Cards texts={texts7} title='Best Doubt Support & Peer Guidance' img1={nineteen} img2={twintee} img3={twintiOne} classT={"md:flex-row"}></Cards>
 
+
+            <Mentorship></Mentorship>
+            <Main_Title text={"Strike Rate"}></Main_Title>
         </div>
     )
 }
