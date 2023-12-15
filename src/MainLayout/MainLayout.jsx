@@ -8,7 +8,7 @@ const MainLayout = () => {
         <div className="max-w-screen-2xl mx-auto">
             <Navbar></Navbar>
         </div>
-        <div className="max-w-screen-2xl mx-auto">
+        <div className="max-w-screen-2xl mx-auto pt-20">
             <Outlet></Outlet>
         </div>
         <div className="max-w-screen-2xl mx-auto">

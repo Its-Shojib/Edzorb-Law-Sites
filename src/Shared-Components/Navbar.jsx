@@ -4,13 +4,13 @@ import {  } from "react-icons/io5";
 
 const Navbar = () => {
     let links = <>
-        <li><Link><img className="w-6" src="/public/shieldimg.png" alt="" />  Premium+</Link></li>
+        <li><Link><img className="w-4" src="/public/shieldimg.png" alt="" />  Premium+</Link></li>
         <li><Link>Blogs</Link></li>
-        <li><Link> <img className="w-10" src="/public/micro.png" alt="" /> Podcast</Link></li>
+        <li><Link> <img className="w-8" src="/public/micro.png" alt="" /> Podcast</Link></li>
     </>
     return (
-        <div className="navbar fixed bg-[#121436] h-20">
-            <div className="max-w-screen-xl mx-auto flex gap-16">
+        <div className="navbar fixed top-0 bg-[#121436] h-20">
+            <div className="max-w-screen-2xl  mx-auto gap-40 ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
