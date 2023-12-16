@@ -28,6 +28,10 @@ import Mentorship from "./Mentorship";
 import Award from "./Award";
 import SocialLinks from "../../Social/SocialLinks";
 import Testimonials from "./Testimonials";
+import UniqueLaw from "./UniqueLaw";
+import LatestVideos from "./LatestVideos";
+import Premium from "./Premium";
+import FooterUp from "./FooterUp";
 
 const Home = () => {
     let texts1 = [
@@ -111,6 +115,17 @@ const Home = () => {
             
             <Main_Title text={"Testimonials"}></Main_Title>
             <Testimonials></Testimonials>
+
+            <Main_Title text={"What makes Edzorb Law unique"}></Main_Title>
+            <UniqueLaw></UniqueLaw>
+
+            <Main_Title text={"Latest Videos"}></Main_Title>
+            <LatestVideos></LatestVideos>
+
+            <Main_Title text={"Get Started Today"}></Main_Title>
+            <Premium></Premium>
+
+            <FooterUp></FooterUp>
 
         </div>
     )

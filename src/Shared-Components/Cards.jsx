@@ -20,11 +20,11 @@ const Cards = ({ texts, title, img1, img2, img3, classT }) => {
                         <SwiperSlide className='rounded-3xl'><img className='w-[370px] h-[450px] rounded-3xl' src={img3} alt="" /></SwiperSlide>
                     </Swiper>
                 </div>
-                <div className=" pt-10">
+                <div className="pt-10 hover:bg-[#121436] hover:text-white p-2 rounded-md">
                     <h1 className='text-xl font-bold py-4'>{title}</h1>
-                    <ul className="list-disc pl-4 space-y-3">
+                    <ul className="list-disc pl-4 space-y-3 hover:text-white">
                         {
-                            texts?.map((item) => <li className='text-sm text-gray-500' key={item.id}>{item}</li>)
+                            texts?.map((item) => <li className='text-sm text-gray-500 hover:text-white' key={item.id}>{item}</li>)
                         }
                     </ul>
                 </div>
