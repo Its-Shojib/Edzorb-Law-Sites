@@ -32,6 +32,9 @@ import UniqueLaw from "./UniqueLaw";
 import LatestVideos from "./LatestVideos";
 import Premium from "./Premium";
 import FooterUp from "./FooterUp";
+import Footer from "./Footer";
+import FooterDown from "./FooterDown";
+import ChatBot from "./ChatBot";
 
 const Home = () => {
     let texts1 = [
@@ -112,12 +115,13 @@ const Home = () => {
             <Award></Award>
 
             <SocialLinks></SocialLinks>
+            <ChatBot></ChatBot>
             
-            <Main_Title text={"Testimonials"}></Main_Title>
-            <Testimonials></Testimonials>
+             {/* <Main_Title text={"Testimonials"}></Main_Title> */}
+            <Testimonials></Testimonials> 
 
             <Main_Title text={"What makes Edzorb Law unique"}></Main_Title>
-            <UniqueLaw></UniqueLaw>
+            <UniqueLaw></UniqueLaw> 
 
             <Main_Title text={"Latest Videos"}></Main_Title>
             <LatestVideos></LatestVideos>
@@ -126,6 +130,8 @@ const Home = () => {
             <Premium></Premium>
 
             <FooterUp></FooterUp>
+            <Footer></Footer>
+            <FooterDown></FooterDown>
 
         </div>
     )

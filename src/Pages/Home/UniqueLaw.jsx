@@ -18,46 +18,46 @@ import twielvth from '../../assets/Unique Law/12.png'
 
 const UniqueLaw = () => {
     return (
-        <div className='w-[900px] mx-auto -mt-10 mb-10'>
+        <div className='md:w-[900px] mx-auto -mt-10 mb-10'>
         <Swiper autoplay={{ delay: 2000, disableOnInteraction: false, }} pagination={true} modules={[Pagination, Autoplay]} className="mySwiper">
             <SwiperSlide className='rounded-3xl'>
-                <div className='flex flex-col md:flex-row gap-5'>
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={first} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={second} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={third} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={fourth} alt="" />
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={first} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={second} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={third} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={fourth} alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className='rounded-3xl'>
-                <div className='flex flex-col md:flex-row gap-5'>
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={fifth} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={sixth} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={seventh} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={eighth} alt="" />
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={fifth} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={sixth} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={seventh} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={eighth} alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className='rounded-3xl'>
-                <div className='flex flex-col md:flex-row gap-5'>
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={ninth} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={tenth} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={eleventh} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={twielvth} alt="" />
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={ninth} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={tenth} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={eleventh} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={twielvth} alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className='rounded-3xl'>
-                <div className='flex flex-col md:flex-row gap-5'>
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={second} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={fifth} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={eighth} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={twielvth} alt="" />
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={second} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={fifth} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={eighth} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={twielvth} alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className='rounded-3xl'>
-                <div className='flex flex-col md:flex-row gap-5'>
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={third} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={sixth} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={ninth} alt="" />
-                    <img className='rounded-3xl w-52 hover:scale-y-105' src={eleventh} alt="" />
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={third} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={sixth} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={ninth} alt="" />
+                    <img className='rounded-3xl md:w-52 hover:scale-y-105' src={eleventh} alt="" />
                 </div>
             </SwiperSlide>
         </Swiper>

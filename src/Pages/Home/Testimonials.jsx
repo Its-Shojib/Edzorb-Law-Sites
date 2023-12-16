@@ -14,7 +14,7 @@ import eight from '../../assets/Testimonials/8.png'
 
 const Testimonials = () => {
     return (
-        <div className='w-8/12 mx-auto -mt-10 mb-10'>
+        <div className='w-full md:w-8/12 mx-auto md:-mt-10 mb-10'>
             <Swiper autoplay={{ delay: 2000, disableOnInteraction: false, }} pagination={true} modules={[Pagination, Autoplay]} className="mySwiper">
                 <SwiperSlide className='rounded-3xl'>
                     <div className='flex flex-col md:flex-row gap-5'>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { } from "react-icons/fa";
-import {  } from "react-icons/io5";
+import { } from "react-icons/io5";
 
 const Navbar = () => {
     let links = <>
@@ -10,33 +10,35 @@ const Navbar = () => {
     </>
     return (
         <div className="navbar fixed top-0 bg-[#121436] z-50 h-20">
-            <div className="max-w-screen-2xl  mx-auto gap-40 ">
-                <div className="navbar-start">
+            <div className="max-w-screen-2xl md:mx-auto md:gap-40 ">
+                <div className="navbar-start md:hidden">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" className="btn btn-ghost text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             {links}
                         </ul>
                     </div>
+                </div>
+                <div className="navbar-center md:navbar-start max-w-[350px]">
                     <a className="btn btn-ghost text-xl"><img className="rounded-2xl" src="/logo.jpg" alt="" /></a>
                 </div>
-                <div className="navbar-center hidden lg:flex justify-center items-center">
+                <div className="md:navbar-center hidden md:flex">
                     <ul className="menu menu-horizontal text-white text-lg">
                         {links}
                     </ul>
                 </div>
                 <div className="navbar-end">
                     <div className="flex gap-2 items-center">
-                        <a className="cursor-pointer w-8 h-8" href="">
+                        <a className="cursor-pointer w-8 h-8 hidden md:flex" href="">
                             <img className="w-full" src="/play store.png" alt="" />
                         </a>
-                        <a className="cursor-pointer w-12 h-10" href="">
+                        <a className="cursor-pointer w-12 h-10 hidden md:flex" href="">
                             <img className="w-full" src="/apple.png" alt="" />
                         </a>
-                        <a className="px-5 font-semibold text-lg py-2 rounded-md bg-yellow-500 cursor-pointer">Login</a>
-                        <a className="px-3 font-semibold text-lg py-2 rounded-md bg-white cursor-pointer">SignUp</a>
+                        <a className="px-1 md:px-5 font-semibold text-lg py-2 rounded-md bg-yellow-500 cursor-pointer">Login</a>
+                        <a className="px-1 md:px-3 font-semibold text-lg py-2 rounded-md bg-white cursor-pointer">SignUp</a>
                     </div>
                 </div>
             </div>

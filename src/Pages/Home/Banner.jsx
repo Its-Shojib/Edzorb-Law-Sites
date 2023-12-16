@@ -4,8 +4,8 @@ import animation from '../../../public/Animation - 1702642228895.json'
 const Banner = () => {
     return (
         <div className="bg-[#121436] min-h-[500px]">
-            <div className="flex justify-around items-center max-w-screen-xl mx-auto">
-                <div className="flex-1 text-white pl-20 space-y-5">
+            <div className="flex flex-col md:flex-row justify-around items-center max-w-screen-xl mx-auto">
+                <div className="flex-1 text-white md:pl-20 space-y-5">
                     <h1 className="text-5xl font-bold">Turn Your Judiciary <br /> Dream Into Reality</h1>
                     <p className="text-lg">Revolutionize Your Prelims + Mains + Interview <br />
                         Preparation in an Integrated Manner.
