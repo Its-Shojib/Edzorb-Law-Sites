@@ -27,6 +27,7 @@ import twintiOne from './../../assets/Slider7/21.png'
 import Mentorship from "./Mentorship";
 import Award from "./Award";
 import SocialLinks from "../../Social/SocialLinks";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
     let texts1 = [
@@ -107,6 +108,10 @@ const Home = () => {
             <Award></Award>
 
             <SocialLinks></SocialLinks>
+            
+            <Main_Title text={"Testimonials"}></Main_Title>
+            <Testimonials></Testimonials>
+
         </div>
     )
 }
