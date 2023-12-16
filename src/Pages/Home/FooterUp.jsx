@@ -48,12 +48,12 @@ const FooterUp = () => {
                     <form className="flex flex-col w-3/4 mx-auto text-black bg-white rounded-3xl py-5">
                         <h1 className="text-3xl text-center">Get a Call Back <FaPhone className="inline" /></h1>
                         <input type="text" name="to_name" placeholder="Your Name"
-                            className="p-2   rounded-md text-white focus:outline-none" />
+                            className="p-2 rounded-md text-white border-black border-2" />
                         <input type="text" name="from_name" placeholder="name@example.com"
-                            className="my-2 p-2   rounded-md text-white focus:outline-none" />
+                            className="my-2 p-2 border-black border-2 rounded-md text-white " />
                         <input type="text" name="to_name" placeholder="Phone Number"
-                            className="p-2  rounded-md text-white focus:outline-none" />
-                        <textarea name="message" className="p-2 rounded-md text-white focus:outline-none" rows="5"
+                            className="p-2 mb-1 border-black border-2 rounded-md text-white " />
+                        <textarea name="message" className="p-2 rounded-md text-white border-black border-2" rows="5"
                             placeholder="Your Message (Optional)"></textarea>
                         <p className='text-center'><button className='bg-[#121436] px-5 py-3 text-xl font-bold text-white rounded-md mt-5'>Submit</button></p>
                     </form>
