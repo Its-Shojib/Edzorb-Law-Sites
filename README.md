@@ -1,8 +1,15 @@
-# React + Vite
+# [Gadget Galaxy](https://edzorb-law.netlify.app)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Live Link: 
+   **https://edzorb-law.netlify.app**
+# The Features are:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Beautiful Design:** You can see the beautifull dynamic on the home page.
+* **Dynamic Design:** Reuse of components.
+* **Testimonial:** Testimonial Added.
+* **Uqique Items:** Uniqueness of courses.
+  
+# Technology Used:
+
+* **React Js , Tailwind, Html, CSS, DaisyUI, Lootifiles, Swiper.js** 
